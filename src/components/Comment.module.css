@@ -1,0 +1,21 @@
+.Comment__Container {
+  padding: 20px;
+  width: 80%;
+}
+
+.Comment__Body {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.Comment__Info {
+  width: 100%;
+  text-align: end;
+  padding: 0 20px;
+  color: #777;
+}
+
+.Comment__Info_Email {
+  font-size: 12px;
+  margin: 5px 0 0 0;
+}

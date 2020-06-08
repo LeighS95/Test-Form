@@ -1,0 +1,30 @@
+.Button {
+  padding: 4px 8px;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: #fff;
+  transition: background 0.25s ease-in;
+}
+
+.Button > a {
+  color: #fff;
+}
+
+.Button > a:hover {
+  color: blue;
+}
+
+.Button:hover {
+  background-color: #fff;
+  color: blue;
+  transition: background 0.25s ease-out;
+}
+
+.Large {
+  padding: 8px 16px;
+}
+
+.Full {
+  width: 100%;
+}

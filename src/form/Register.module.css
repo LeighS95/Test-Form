@@ -1,0 +1,10 @@
+.Form__Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 72px 0;
+}
+
+.Form__Container {
+  margin-bottom: 40px;
+}

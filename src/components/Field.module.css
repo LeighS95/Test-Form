@@ -1,0 +1,15 @@
+.Field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.Field__Label {
+  margin-bottom: 8px;
+}
+
+.Field__Input {
+  padding: 8px;
+}

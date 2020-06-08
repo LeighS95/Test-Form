@@ -1,0 +1,55 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65px;
+  background: transparent;
+}
+
+.Header__Logo {
+  height: 48px;
+  width: 96px;
+}
+
+.Header__Navigation {
+  width: 50%;
+  max-width: 500px;
+}
+
+.Header__Navigation_Nav {
+  width: 100%;
+}
+
+.Header__Navigation_NavList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Header__Navigation_NavItem > a {
+  padding: 4px 8px;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid blue;
+  border-radius: 4px;
+  transition: background 0.25s ease-out;
+}
+
+.Header__Navigation_NavItem > a:hover {
+  background-color: #fff;
+  color: blue;
+  transition: background 0.25 ease-in;
+}
+
+.Header__Initials {
+  display: flex;
+  height: 48px;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: blue;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}

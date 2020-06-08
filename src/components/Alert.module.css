@@ -1,0 +1,8 @@
+.Alert {
+  padding: 8px 12px;
+  background-color: rgba(248, 70, 70, 0.8);
+}
+
+.Alert__Message {
+  color: rgb(248, 70, 70);
+}

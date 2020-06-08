@@ -1,0 +1,36 @@
+.Hero__Container {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 65px);
+  width: 100%;
+}
+.Hero__Image {
+  height: 100%;
+  width: 100%;
+  background: url('https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+    no-repeat top;
+  background-size: cover;
+}
+.Hero__Content {
+  padding-left: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.Hero__Content_Title {
+  color: #fff;
+  text-transform: uppercase;
+}
+.Hero__Content_Text {
+  color: #fff;
+}
+.Intro__Container {
+  height: 200px;
+  text-align: center;
+}

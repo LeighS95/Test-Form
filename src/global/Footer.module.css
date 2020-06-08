@@ -1,0 +1,16 @@
+.Footer {
+  margin-top: 20px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 65px;
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+}
+
+.Footer__Text {
+  padding-right: 30px;
+}

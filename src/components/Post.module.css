@@ -1,0 +1,23 @@
+.Post__Container {
+  margin: 0 40px;
+}
+
+.Post__Info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Post__Comments_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Post__Comments_Dropdown {
+  height: 0;
+  overflow: hidden;
+}
+
+.visible {
+  height: auto;
+}
